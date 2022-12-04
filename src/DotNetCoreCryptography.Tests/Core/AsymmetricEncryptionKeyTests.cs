@@ -9,8 +9,7 @@ namespace DotNetCoreCryptography.Tests.Core
     public abstract class AsymmetricEncryptionKeyTests
     {
         [Fact]
-        public void Can_serialize_and_deserialize_key()
-        {
+        public void Can_serialize_and_deserialize_key(){
             var rsaKey = Create();
             var serialized = rsaKey.Serialize();
             var deserialized = (RsaEncryptionKey) AsymmetricEncryptionKey.CreateFromSerializedVersion(serialized);
