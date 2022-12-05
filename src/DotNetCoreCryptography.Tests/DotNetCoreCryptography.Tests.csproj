@@ -1,11 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-
     <IsPackable>false</IsPackable>
     <ProjectGuid>CFBF6089-F483-4BB1-8CD6-D4A251EDF46D</ProjectGuid>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="TestUtils\**" />
     <EmbeddedResource Remove="TestUtils\**" />
